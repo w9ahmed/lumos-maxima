@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Lumos</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_splash">Lumos</string>
+    <string name="MY_AD_UNIT_ID">ca-app-pub-1060236991679345/2288640987</string>
+
+</resources>

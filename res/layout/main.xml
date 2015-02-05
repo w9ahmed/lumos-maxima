@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/ledoff" android:id="@+id/rel"  >
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="1dip"
+        android:layout_height="1dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" android:background="#53351d"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" ads:adUnitId="@string/MY_AD_UNIT_ID" ads:adSize="BANNER" >
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
